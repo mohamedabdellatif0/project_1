@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rare for Her</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+        <body>
+
+            <!-- NAV  -->
+            <nav>
+                <a class="logo" href="#">
+                    <div class="logo-circle"><img
+                            src="./images/logo with circle.png"></div>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#hero">الرئيسية</a></li>
+                    <li><a href="#products">المتجر</a></li>
+                    <li><a href="#">المفضلات</a></li>
+                    <li><a href="#">عربة التسوق</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+
+                </ul>
+                <div class="nav-actions">
+                    <a href="#" class="btn-login">سجل دخول</a>
+                    <div class="nav-icon">
+                        <img src="./images/profile photo.png">
+                    </div>
+                    <div class="hamburger" id="hamburger"
+                        onclick="toggleMenu()">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Menu -->
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="#hero">الرئيسية</a>
+                <a href="#products">المتجر</a>
+                <a href="#">المفضلات</a>
+                <a href="#">عربة التسوق</a>
+                <a href="#about">من نحن</a>
+                <a href="#">تسجيل دخول</a>
+            </div>
+
+            <!-- HERO -->
+            <section class="hero" id="hero">
+                <div class="hero-bg-decoration"></div>
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-headline">كل امرأة مميزة تستحق قطعة
+                            نادرة
+                            مصممة خصيصاً لها، اقتني التميز معنا</h1>
+                        <a href="#products" class="btn-primary">تسوق الآن</a>
+                    </div>
+                    <div class="hero-image">
+                        <div class="hero-img-wrap">
+                            <div>
+                                <img src="./images/hero section image.png" alt>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PRODUCTS -->
+            <section class="products" id="products">
+                <div class="section-title reveal">
+                    <h2>المنتجات المميزة</h2>
+                </div>
+                <div class="products-grid">
+
+                    <!-- Product cards -->
+                    <div class="product-card reveal">
+                        <div class="product-img">
+                            <img src="./images/product photo frame (1).png"
+                                alt="اسم المنتج">
+                            <button class="heart-btn"><img
+                                    src="./images/Stitched Heart.png"></button>
+                        </div>
+
+                        <div class="product-info">
+                            <div class="product-name">اسم المنتج</div>
+                            <div class="product-detail">تفاصيل عن المنتج</div>
+                            <div class="product-price">400.00 ج.م</div>
+
+                            <div class="product-actions">
+                                <button class="btn-cart">أضف للسلة</button>
+                                <button class="btn-buy">اشتري الآن</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card reveal">
+                        <div class="product-img">
+                            <img src="./images/product photo frame (2).png"
+                                alt="اسم المنتج">
+                            <button class="heart-btn"><img
+                                    src="./images/Stitched Heart.png"></button>
+
+                        </div>
+
+                        <div class="product-info">
+                            <div class="product-name">اسم المنتج</div>
+                            <div class="product-detail">تفاصيل عن المنتج</div>
+                            <div class="product-price">400.00 ج.م</div>
+
+                            <div class="product-actions">
+                                <button class="btn-cart">أضف للسلة</button>
+                                <button class="btn-buy">اشتري الآن</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card reveal">
+                        <div class="product-img">
+                            <img src="./images/product photo frame (3).png"
+                                alt="اسم المنتج">
+                            <button class="heart-btn"><img
+                                    src="./images/Stitched Heart.png"></button>
+
+                        </div>
+
+                        <div class="product-info">
+                            <div class="product-name">اسم المنتج</div>
+                            <div class="product-detail">تفاصيل عن المنتج</div>
+                            <div class="product-price">400.00 ج.م</div>
+
+                            <div class="product-actions">
+                                <button class="btn-cart">أضف للسلة</button>
+                                <button class="btn-buy">اشتري الآن</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card reveal">
+                        <div class="product-img">
+                            <img src="./images/product photo frame (4).png"
+                                alt="اسم المنتج">
+                            <button class="heart-btn"><img
+                                    src="./images/Stitched Heart.png"></button>
+
+                        </div>
+
+                        <div class="product-info">
+                            <div class="product-name">اسم المنتج</div>
+                            <div class="product-detail">تفاصيل عن المنتج</div>
+                            <div class="product-price">400.00 ج.م</div>
+
+                            <div class="product-actions">
+                                <button class="btn-cart">أضف للسلة</button>
+                                <button class="btn-buy">اشتري الآن</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card reveal">
+                        <div class="product-img">
+                            <img src="./images/product photo frame (5).png"
+                                alt="اسم المنتج">
+                            <button class="heart-btn"><img
+                                    src="./images/Stitched Heart.png"></button>
+
+                        </div>
+
+                        <div class="product-info">
+                            <div class="product-name">اسم المنتج</div>
+                            <div class="product-detail">تفاصيل عن المنتج</div>
+                            <div class="product-price">400.00 ج.م</div>
+
+                            <div class="product-actions">
+                                <button class="btn-cart">أضف للسلة</button>
+                                <button class="btn-buy">اشتري الآن</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card reveal">
+                        <div class="product-img">
+                            <img src="./images/product photo frame.png"
+                                alt="اسم المنتج">
+                            <button class="heart-btn"><img
+                                    src="./images/Stitched Heart.png"></button>
+
+                        </div>
+
+                        <div class="product-info">
+                            <div class="product-name">اسم المنتج</div>
+                            <div class="product-detail">تفاصيل عن المنتج</div>
+                            <div class="product-price">400.00 ج.م</div>
+
+                            <div class="product-actions">
+                                <button class="btn-cart">أضف للسلة</button>
+                                <button class="btn-buy">اشتري الآن</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- ABOUT -->
+            <section class="about" id="about">
+                <div class="about-inner">
+
+                    <div class="about-img img-top-left reveal">
+                        <img src="./images/Knitted Plants 1.png" alt="2">
+
+                    </div>
+
+                    <div class="about-img img-bottom-left reveal">
+                        <img src="./images/product photo frame (5).png"
+                            alt="صورة 1"> </div>
+
+                    <div class="about-text reveal">
+                        <span class="about-tag">من نحن ؟</span>
+                        <h2>نبذة عن Rare for her</h2>
+                        <p>
+                            تأسست علامتنا في عام …… انطلاقًا من قناعة بأن كل
+                            امرأة تحمل جمالًا فريدًا يستحق أن يُترجم في قطعة
+                            استثنائية تُشبهها.
+                            نصنع منتجاتنا يدويًا بعناية متقنة، ونولّد من
+                            التفاصيل الصغيرة قيمة كبيرة تروي حكاية ذوقك،
+                            وأناقتك، وروحك المميزة.
+                            في كل تصميم، نبحث عن التفرّد… وعن تلك اللمسة الهادئة
+                            التي تُضفي حضورًا راقيًا لا يُنسى.
+                            هنا، لا نقدّم مجرد منتج؛ بل قطعة تنتمي إليك، وتعكس
+                            شخصيّتك بكل فخر.
+                        </p>
+                    </div>
+
+                    <div class="about-img img-top-right reveal">
+                        <img
+                            src="./images/image 2 about sec.png"
+                            alt="صورة 3">
+                    </div>
+
+                    <div class="about-img img-bottom-right reveal">
+                        <img
+                            src="./images/19 Monstera Crochet Patterns_ Create Your Own Tropical Paradise at Home! 1.png"
+                            alt="صورة 3">
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- REVIEWS -->
+            <section class="reviews">
+                <div class="reviews-bg"></div>
+                <div class="section-title reveal"
+                    style="position:relative;z-index:1">
+                    <h2>آراء العملاء</h2>
+                </div>
+                <div class="reviews-slider">
+                    <div class="review-card reveal reveal-delay-1">
+                        <div class="review-avatar">
+                            <img src="./images/clint photo.png">
+                        </div>
+                        <div class="review-name">إيان يوسف</div>
+                        <div class="stars">
+                            <span><img
+                                    src="./images/Star 5.png"</span><span><img
+                                        src="./images/Star 4.png"</span><span><img
+                                            src="./images/Star 4.png"</span><span><img
+                                                src="./images/Star 4.png"</span><span><img
+                                                    src="./images/Star 4.png"</span>
+
+                                            </div>
+                                            <p class="review-text">خامة ممتازة و
+                                                تعاون جيد تم وصول
+                                                المنتج في الوقت المحدد.</p>
+                                        </div>
+                                        <div
+                                            class="review-card reveal reveal-delay-1">
+                                            <div class="review-avatar">
+                                                <img
+                                                    src="./images/clint photo.png"
+                                                    alt>
+
+                                            </div>
+                                            <div class="review-name">إيان
+                                                يوسف</div>
+                                            <div class="stars">
+                                                <span><img
+                                                        src="./images/Star 4.png"</span><span><img
+                                                            src="./images/Star 4.png"</span><span><img
+                                                                src="./images/Star 4.png"</span><span><img
+                                                                    src="./images/Star 4.png"</span><span><img
+                                                                        src="./images/Star 4.png"</span>
+
+                                                                </div>
+                                                                <p
+                                                                    class="review-text">خامة
+                                                                    ممتازة و
+                                                                    تعاون جيد تم
+                                                                    وصول
+                                                                    المنتج في
+                                                                    الوقت
+                                                                    المحدد.</p>
+                                                            </div>
+                                                            <div
+                                                                class="review-card reveal reveal-delay-2">
+                                                                <div
+                                                                    class="review-avatar">
+                                                                    <img
+                                                                        src="./images/clint photo.png"
+                                                                        alt>
+
+                                                                </div>
+                                                                <div
+                                                                    class="review-name">سهيلة
+                                                                    إسماعيل</div>
+                                                                <div
+                                                                    class="stars">
+                                                                    <span><img
+                                                                            src="./images/Star 6.png"</span><span><img
+                                                                                src="./images/Star 4.png"</span><span><img
+                                                                                    src="./images/Star 4.png"</span><span><img
+                                                                                        src="./images/Star 4.png"</span><span><img
+                                                                                            src="./images/Star 4.png"</span>
+                                                                                    </div>
+                                                                                    <p
+                                                                                        class="review-text">ليس
+                                                                                        التعامل
+                                                                                        الأول،
+                                                                                        اهتمام
+                                                                                        بالتفاصيل
+                                                                                        و
+                                                                                        دقة
+                                                                                        كالمعتاد.</p>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="review-card reveal reveal-delay-2">
+                                                                                    <div
+                                                                                        class="review-avatar">
+                                                                                        <img
+                                                                                            src="./images/clint photo.png"
+                                                                                            alt>
+
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="review-name">سهيلة
+                                                                                        إسماعيل</div>
+                                                                                    <div
+                                                                                        class="stars">
+                                                                                        <span><img
+                                                                                                src="./images/Star 6.png"</span><span><img
+                                                                                                    src="./images/Star 4.png"</span><span><img
+                                                                                                        src="./images/Star 4.png"</span><span><img
+                                                                                                            src="./images/Star 4.png"</span><span><img
+                                                                                                                src="./images/Star 4.png"</span>
+                                                                                                        </div>
+                                                                                                        <p
+                                                                                                            class="review-text">ليس
+                                                                                                            التعامل
+                                                                                                            الأول،
+                                                                                                            اهتمام
+                                                                                                            بالتفاصيل
+                                                                                                            و
+                                                                                                            دقة
+                                                                                                            كالمعتاد.</p>
+                                                                                                    </div>
+                                                                                                    <div
+                                                                                                        class="review-card reveal reveal-delay-3">
+                                                                                                        <div
+                                                                                                            class="review-avatar">
+                                                                                                            <img
+                                                                                                                src="./images/clint photo.png"
+                                                                                                                alt>
+
+                                                                                                        </div>
+                                                                                                        <div
+                                                                                                            class="review-name">فاطمة
+                                                                                                            محمد</div>
+                                                                                                        <div
+                                                                                                            class="stars">
+                                                                                                            <span><img
+                                                                                                                    src="./images/Star 5.png"</span><span><img
+                                                                                                                        src="./images/Star 5.png"</span><span><img
+                                                                                                                            src="./images/Star 4.png"</span><span><img
+                                                                                                                                src="./images/Star 4.png"</span><span><img
+                                                                                                                                    src="./images/Star 4.png"</span>
+                                                                                                                            </div>
+                                                                                                                            <p
+                                                                                                                                class="review-text">المنتج
+                                                                                                                                بالضبط
+                                                                                                                                و
+                                                                                                                                المقاسات
+                                                                                                                                جيد
+                                                                                                                                جداً
+                                                                                                                                من
+                                                                                                                                الاستخدام.</p>
+                                                                                                                        </div>
+                                                                                                                        <div
+                                                                                                                            class="review-card reveal reveal-delay-3">
+                                                                                                                            <div
+                                                                                                                                class="review-avatar">
+                                                                                                                                <img
+                                                                                                                                    src="./images/clint photo.png"
+                                                                                                                                    alt>
+
+                                                                                                                            </div>
+                                                                                                                            <div
+                                                                                                                                class="review-name">فاطمة
+                                                                                                                                محمد</div>
+                                                                                                                            <div
+                                                                                                                                class="stars">
+                                                                                                                                <span><img
+                                                                                                                                        src="./images/Star 4.png"</span><span><img
+                                                                                                                                            src="./images/Star 4.png"</span><span><img
+                                                                                                                                                src="./images/Star 4.png"</span><span><img
+                                                                                                                                                    src="./images/Star 4.png"</span><span><img
+                                                                                                                                                        src="./images/Star 4.png"</span>
+                                                                                                                                                </div>
+                                                                                                                                                <p
+                                                                                                                                                    class="review-text">المنتج
+                                                                                                                                                    بالضبط
+                                                                                                                                                    و
+                                                                                                                                                    المقاسات
+                                                                                                                                                    جيد
+                                                                                                                                                    جداً
+                                                                                                                                                    من
+                                                                                                                                                    الاستخدام.</p>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </section>
+
+                                                                                                                                    <!-- CONTACT -->
+                                                                                                                                    <section
+                                                                                                                                        class="contact"
+                                                                                                                                        id="contact">
+                                                                                                                                        <div
+                                                                                                                                            class="contact-inner">
+                                                                                                                                            <div
+                                                                                                                                                class="contact-decoration reveal">
+                                                                                                                                                <img
+                                                                                                                                                    src="./images/19 Monstera Crochet Patterns_ Create Your Own Tropical Paradise at Home! 4.png">
+                                                                                                                                            </div>
+                                                                                                                                            <div
+                                                                                                                                                class="contact-form reveal">
+                                                                                                                                                <h2>تواصل
+                                                                                                                                                    معنا</h2>
+                                                                                                                                                <p>اطلبي
+                                                                                                                                                    قطعتك
+                                                                                                                                                    الفريدة</p>
+                                                                                                                                                <form
+                                                                                                                                                    onsubmit="submitForm(event)">
+                                                                                                                                                    <div
+                                                                                                                                                        class="form-group">
+                                                                                                                                                        <input
+                                                                                                                                                            type="text"
+                                                                                                                                                            class="form-input"
+                                                                                                                                                            placeholder="اسم العميل"
+                                                                                                                                                            required>
+                                                                                                                                                    </div>
+                                                                                                                                                    <div
+                                                                                                                                                        class="form-group">
+                                                                                                                                                        <input
+                                                                                                                                                            type="email"
+                                                                                                                                                            class="form-input"
+                                                                                                                                                            placeholder="الايميل الاكتروني"
+                                                                                                                                                            required>
+                                                                                                                                                    </div>
+                                                                                                                                                    <div
+                                                                                                                                                        class="form-group">
+                                                                                                                                                        <input
+                                                                                                                                                            type="text"
+                                                                                                                                                            class="form-input"
+                                                                                                                                                            placeholder="اسم المنتج / الكود">
+                                                                                                                                                    </div>
+                                                                                                                                                    <div
+                                                                                                                                                        class="form-group">
+                                                                                                                                                        <textarea
+                                                                                                                                                            class="form-input"
+                                                                                                                                                            placeholder="ملاحظات / طلب خاص"></textarea>
+                                                                                                                                                    </div>
+                                                                                                                                                    <button
+                                                                                                                                                        type="submit"
+                                                                                                                                                        class="btn-submit">إرسال
+                                                                                                                                                        الطلب</button>
+                                                                                                                                                </form>
+
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </section>
+
+                                                                                                                                    <!-- FOOTER -->
+                                                                                                                                    <footer>
+                                                                                                                                        <div
+                                                                                                                                            class="footer-inner">
+                                                                                                                                            <div
+                                                                                                                                                class="footer-brand">
+                                                                                                                                                <div
+                                                                                                                                                    class="logo-circle"><img
+                                                                                                                                                        src="./images/logo without circle.png">
+                                                                                                                                                </div>
+
+                                                                                                                                            </div>
+                                                                                                                                            <div
+                                                                                                                                                class="footer-col">
+                                                                                                                                                <h4>سياسة
+                                                                                                                                                    الاسترجاع
+                                                                                                                                                    والاستبدال</h4>
+                                                                                                                                                <ul>
+                                                                                                                                                    <li><a
+                                                                                                                                                            href="#about">عن
+                                                                                                                                                            العلامة
+                                                                                                                                                            التجارية</a></li>
+                                                                                                                                                    <li><a
+                                                                                                                                                            href="#contact">تواصل
+                                                                                                                                                            معنا</a></li>
+                                                                                                                                                    <li>
+                                                                                                                                                        <a
+                                                                                                                                                            href="https://www.google.com/maps"
+                                                                                                                                                            target="_blank">الموقع</a>
+                                                                                                                                                    </li>
+                                                                                                                                                </ul>
+                                                                                                                                            </div>
+                                                                                                                                            <div
+                                                                                                                                                class="footer-col">
+                                                                                                                                                <h4>روابط
+                                                                                                                                                    سريعة</h4>
+                                                                                                                                                <ul>
+                                                                                                                                                    <li><a
+                                                                                                                                                            href="#hero">الرئيسية</a></li>
+                                                                                                                                                    <li><a
+                                                                                                                                                            href="#products">المتجر</a></li>
+                                                                                                                                                    <li><a
+                                                                                                                                                            href="#">المفضلات</a></li>
+                                                                                                                                                    <li><a
+                                                                                                                                                            href="#about">من
+                                                                                                                                                            نحن</a></li>
+                                                                                                                                                </ul>
+                                                                                                                                            </div>
+                                                                                                                                            <div
+                                                                                                                                                class="footer-col">
+                                                                                                                                                <h4>تابعينا</h4>
+                                                                                                                                                <div
+                                                                                                                                                    class="footer-social">
+                                                                                                                                                    <a
+                                                                                                                                                        href="https://www.facebook.com/"
+                                                                                                                                                        target="_blank"
+                                                                                                                                                        rel="noopener noreferrer
+                                                                                                                                                        title="Facebook">
+                                                                                                                                                        <img
+                                                                                                                                                            width="48"
+                                                                                                                                                            height="48"
+                                                                                                                                                            src="https://img.icons8.com/color/48/facebook-new.png"
+                                                                                                                                                            alt="facebook" />
+                                                                                                                                                    </a>
+                                                                                                                                                    <a
+                                                                                                                                                        href="https://www.instagram.com/"
+                                                                                                                                                        target="_blank"
+                                                                                                                                                        rel="noopener noreferrer
+                                                                                                                                                        title="Facebook">
+                                                                                                                                                        <img
+                                                                                                                                                            width="48"
+                                                                                                                                                            height="48"
+                                                                                                                                                            src="https://img.icons8.com/color/48/instagram-new--v1.png"
+                                                                                                                                                            alt="instagram-new--v1" />
+                                                                                                                                                    </a>
+                                                                                                                                                    <a
+                                                                                                                                                        href="https://x.com/"
+                                                                                                                                                        target="_blank"
+                                                                                                                                                        rel="noopener noreferrer
+                                                                                                                                                        title="Facebook">
+                                                                                                                                                        <img
+                                                                                                                                                            width="48"
+                                                                                                                                                            height="48"
+                                                                                                                                                            src="https://img.icons8.com/color/48/twitter--v1.png"
+                                                                                                                                                            alt="twitter--v1" />
+                                                                                                                                                    </a>
+
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div
+                                                                                                                                            class="footer-bottom">
+                                                                                                                                            <span>جميع
+                                                                                                                                                الحقوق
+                                                                                                                                                محفوظة
+                                                                                                                                                ©
+                                                                                                                                                2024
+                                                                                                                                                Rare
+                                                                                                                                                for
+                                                                                                                                                Her</span>
+                                                                                                                                            <span>صُنع
+                                                                                                                                                بـ
+                                                                                                                                                ♥
+                                                                                                                                                للمرأة
+                                                                                                                                                المميزة</span>
+                                                                                                                                            <span>Rare
+                                                                                                                                                For
+                                                                                                                                                Her</span>
+                                                                                                                                        </div>
+                                                                                                                                    </footer>
+
+                                                                                                                                    <!-- WhatsApp Float -->
+                                                                                                                                    <a
+                                                                                                                                        class="whatsapp-float"
+                                                                                                                                        href="https://wa.me/201095860599"
+                                                                                                                                        target="_blank"
+                                                                                                                                        title="تواصلي معنا عبر واتساب">
+                                                                                                                                        <img
+                                                                                                                                            width="60"
+                                                                                                                                            height="60"
+                                                                                                                                            src="https://img.icons8.com/color/48/whatsapp--v1.png"
+                                                                                                                                            alt="whatsapp--v1" />
+                                                                                                                                    </a>
+                                                                                                                                    <script
+                                                                                                                                        src="./js/main.js"></script>
+                                                                                                                                </body>
+                                                                                                                            </html>
